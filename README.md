@@ -48,7 +48,7 @@ It creates or updates a maintenance window for a given host, using a user-specif
 
 3. Make sure your `{$API_TOKEN}` and `{$API_URL}` macros are correctly set up in Zabbix:
    - `{$API_URL}` should point to your Zabbix frontend’s API endpoint (e.g. `https://zabbix.example.com/api_jsonrpc.php`).
-   - `{$API_TOKEN}` should be a valid API token created in Zabbix (Administration -> General -> API tokens).
+   - `{$API_TOKEN}` should be a valid API token created in Zabbix (Users -> API tokens).
 
 4. Once saved, navigate to a host in the Zabbix UI, click on the dropdown menu in the top-right corner (Action menu), select the "Maintenance" path, and choose "Add Maintenance Time".  
    Provide a time period (e.g. `1h30m`), confirm, and the script will create or update the maintenance accordingly.
